@@ -11,10 +11,12 @@
 .statusOffline {
   background-color: red;
 }
-.friends__list {
+.friendsList {
+  margin: 80px auto;
+  width: 30%;
   list-style: none;
 }
-.friendslistItem {
+.friendsListItem {
   display: flex;
   align-items: center;
   margin: 20px;

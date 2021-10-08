@@ -3,7 +3,7 @@ import style from './FriendsList.module.css';
 
 export default function FriendListItem({ name, avatar, isOnline }) {
   return (
-    <li className={style.friendslistItem}>
+    <li className={style.friendsListItem}>
       <span
         className={isOnline ? style.statusOnline : style.statusOffline}
       ></span>

@@ -22,8 +22,7 @@ export default function App() {
       />
       <Statistics title="Upload stats" stats={statisticalData} />
       <FriendsList friends={friends} />
+      <Transactions items={transactions} />
     </>
   );
 }
-
-//       <TransactionHistory items={transactions} />

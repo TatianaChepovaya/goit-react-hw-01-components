@@ -3,6 +3,7 @@
   width: fit-content;
   margin: 0 auto;
   background: #fff;
+  box-shadow: 7px 7px 12px 3px rgba(29, 29, 29, 0.2);
 }
 
 .title {
